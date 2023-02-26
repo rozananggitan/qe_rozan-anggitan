@@ -1,0 +1,4 @@
+## Summary Version Control (Git) ##
+- Versioning merupakan melakukan sebuah pengaturan versi atau pelacakan perubahan dari setiap code program yang berubah. Tools yang digunakan adalah version control system (vcs), source code manager (scm), revision control system (rcs).
+- version control system : single user (berbasis lokal), centralized (mempunyai sistem terpusat dan bergantung pada sistem terpusat), distributed (sistem terdistribusi dapat digunakan secara lokal dan tersinkronasi di sever pusat). 
+- Git adalah salah satu version control system berbasis distributed atau distribusi, yang intinya dalam pengerjaannya dapat secara lokal namun sudah tersinkronasi di server terpusat. 
