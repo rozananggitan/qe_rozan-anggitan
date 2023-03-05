@@ -1,0 +1,5 @@
+## Summary Test Case Management Tools ##
+
+- Test Case Management Tools merupakan situs atau software yang digunakan oleh software tester untuk menyimpan informasi, terkait bagaimana pengujian produk harus dilakukan. 
+- Test Case Management Tools sangat dibutuhkan karena memiliki plan dan estimasi yang dapat menginformasikan plan dan estimasi yang telah kita buat dalam test plan, kemudian terdapat monitoring dan controlling memiliki fungsi untuk memonitoring proses collecting, recording, serta reporting selain itu dapat mengontrol data-data yang telah dibuat dalam satu tempat, kemudian terdapat reporting and integrate with anothers tools yang memiliki fungsi untuk membuat reporting secara otomatis. 
+- Terdapat beberapa contoh dari test case management tools adalah TestRail, TestLink, Zephyr, Qtest, PractiTest dan TCLab. Kemudian test case management tools dapat di integrasikan dengan tools lain seperti Jira dsb. 
