@@ -1,0 +1,14 @@
+## Summary Basic Linux Command ##
+ - ls untuk menampilkan isi dari directory
+ - ls -a / usr untuk menampilkan root user atau didalam my computer terdapat beberapa folder. Kemudian akan membuka / usr adalah untuk membuka folder usr tersebut yang berisikan beberapa folder lagi seperti bin, games dll. 
+ - ls -al / ls -a -l enampilkan lebih lengkap, menampilkan permisions seperti size, tanggal bulan dsb 
+ - cal untuk menampilkan kalender 
+ - date untuk menampikan waktu hari ini 
+ - touch digunakan untuk membuat suatu file 
+ - cat digunakan untuk melakukan penulisan pada file yang telah dibuat seperti penulisan didalam file test.html 
+ - cp digunakan untuk melakukan copy data atau copy file  
+ - mv digunakan untuk memindahkan data atau memindahkan file
+ - rm digunakan untuk menghapus data atau menghapus file 
+ - mkdir digunakan untuk membuat folder 
+ - rmdir digunakan untuk melakukan penghapusan directory
+ - dll 
