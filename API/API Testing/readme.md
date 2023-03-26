@@ -1,0 +1,4 @@
+## Summary API Testing ## 
+- Api Test sangat berbeda dengan GUI, API test dapat mengirim request dan mendapatkan response kemudian dapat memverifikasi response yang dan error handling. 
+- Jenis pengujian API Testing yaitu functionality, load test dan security. 
+- Terdapat beberapa perbedaan terhadap API Test dan Unit Test yaitu pada unit testt dilakukan oleh developer, fungsi fungsi terpisah, developer bisa mengakses source code, hanya dasar functionality yang di test, scope terbatas dan biasa dilakukan sebelum build sementara API Test dilakukan tester perform it, end to end, tidak bisa memgakses source code, hanya fungsi API saja, semua functional memiliki issue, scope lebih luas dan dilakukan setelah build.
