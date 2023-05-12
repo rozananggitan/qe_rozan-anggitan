@@ -1,0 +1,572 @@
+{
+	"info": {
+		"_postman_id": "9f14d032-eef5-4413-88c2-ab10ac00b670",
+		"name": "MINI PROJECT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26373038"
+	},
+	"item": [
+		{
+			"name": "PRODUCTS",
+			"item": [
+				{
+					"name": "GET ALL PRODUCTS WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/products",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CATEGORIES WITH INVALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PRODUCT BY ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/products/1",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST CREATE NEW PRODUCT WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"SonyYYYY\",\r\n    \"description\":\"play has no limits\",\r\n    \"price\":300,\r\n    \"categories\":[\r\n        2\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/products",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST CREATE NEW PRODUCT WITH VALID ENDPOINTS AND INVALID BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"description\":\"play has no limits\",\r\n    \"price\":300,\r\n    \"categories\":[\r\n        2\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/products",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE PRODUCT WITH VALID ENDPOINTS",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/products",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PRODUCTS CATEGORY",
+			"item": [
+				{
+					"name": "POST TO CREATE CATEGORY WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"ID\": 2,\r\n    \"Name\": \"gaming\",\r\n    \"Description\": \"for gaming purposes\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/categories",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET CATEGORY BY ID WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/categories/2",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"categories",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CATEGORY WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/categories",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CATEGORY WITH INVALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE CATEGORY WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/categories/2",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"categories",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AUTHENTICATION",
+			"item": [
+				{
+					"name": "POST TO CREATE REGISTER WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\":\"rozananggitan888@gmail.com\",\r\n    \"password\":\"anggitan888\",\r\n    \"fullname\":\"Rozan Anggitan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST CREATE REGISTER WITH VALID ENDPOINTS AND INVALID BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"password\":\"anggitan123\",\r\n    \"fullname\":\"Rozan Anggitan\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST LOGIN WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\":\"rozananggitan888@gmail.com\",\r\n    \"password\":\"anggitan888\"\r\n}  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET USER INFORMATION WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/auth/info",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"auth",
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST LOGIN WITH VALID ENDPOINTS AND INVALID BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\":\"rozananggitan888@gmail.com\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HELLO",
+			"item": [
+				{
+					"name": "GET INDEX WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/hello",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET INDEX WITH INVALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ORDERS",
+			"item": [
+				{
+					"name": "POST CREATE NEW ORDER WITH VALID ENDPOINTS AND BODY",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "       [\r\n    {\r\n        \"product_id\":3,\r\n        \"quantity\":4\r\n    }\r\n]     ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/orders",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL ORDERS WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/orders",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ORDERS BY ID WITH VALID ENDPOINTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://altashop-api.fly.dev/api/orders/1",
+							"protocol": "https",
+							"host": [
+								"altashop-api",
+								"fly",
+								"dev"
+							],
+							"path": [
+								"api",
+								"orders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
